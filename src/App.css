@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+.body{
+  height: calc( 100vh - 50px );
+  background-color: rgba(127, 255, 212, 0.548);
+}
+.App-header {
+  display: flex;
+  gap: 15px;
+  background-color: rgb(70, 70, 70);
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.App-header  .main-link{
+  list-style-type: none;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  width: 100px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.active-link p{
+  color: rgb(255, 0, 0) !important;
+}
+.active-link{
+  color: brown !important;
+  font-weight: bold;
+  background-color: #fff;
+  height: calc( 100% - 6px );
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
